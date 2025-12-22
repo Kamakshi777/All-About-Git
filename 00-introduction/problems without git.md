@@ -1,10 +1,13 @@
 ## 1. Maintaining Separate Files
 Before Git, every version of a file had to be saved separately.
 
-Git_Course.docx
-Git_Course_v1.docx
-Git_Course_v2.docx
-Git_Course_final.docx
+Examples:
+
+## Git_Course.docx
+## Git_Course_v1.docx
+## Git_Course_v2.docx
+## Git_Course_final.docx
+
 
 
 This is messy and hard to manage.
@@ -29,6 +32,8 @@ Old system had a single point of failure (if your computer crashes, all files co
 
 This avoids data loss and makes the system more reliable.
 
+---
 
+## Diagram
 
-![Git Version Control](images/image 1.png)
+![Git Version Control](images/image1.png)
