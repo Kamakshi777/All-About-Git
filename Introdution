@@ -1,12 +1,20 @@
-# Why is git
+# Introduction to Git
+
+## Why Git is Important
 Git is used to track changes in code and help developers work together without breaking each other’s work.
-Example Scenario:
+
+### Example Scenario:
 Imagine a team building a website:
-A updates the homepage
-B adds a contact form
-C fixes a bug on the login page
-With Git, all their changes can be combined safely, and if a mistake happens, the team can go back to the last working version easily.
-# What is problem Before Git
+- **A** updates the homepage
+- **B** adds a contact form
+- **C** fixes a bug on the login page
+
+With Git, all their changes can be combined safely. If a mistake happens, the team can revert to the last working version easily.
+
+## Problems Before Git
 Before Git, developers managed code manually by copying and sharing files.
-There was no version history, no proper backup, and no safe collaboration
-As projects grew and more people worked together, code management became confusing and risky
+- No version history
+- No proper backup
+- No safe collaboration
+
+As projects grew and more people worked together, code management became confusing and risky.
