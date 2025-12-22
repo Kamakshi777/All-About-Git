@@ -13,44 +13,44 @@ git clone <url>
 ## Basic File Operations
 
 git status  
-git add <file>  # Stage a file for commit
-git add.  # Stage all files for commit
-git rm <file>  # Remove a file from repository
-git mv <src> <dest> # Rename/move a file
+git add <file>  
+git add.  
+git rm <file>  
+git mv <src> <dest> 
 
 ## Committing Changes
 
-git commit -m "Commit message"  # Save staged changes with a message
-git commit -a -m "Commit message" # Commit all modified tracked files
-git commit --amend             # Edit the last commit
+git commit -m "Commit message"  
+git commit -a -m "Commit message" 
+git commit --amend             
 
 ## Viewing History
 
-git log          # Show commit history
-git log --oneline # Short, one-line per commit
-git log -p       # Show changes introduced in each commit
+git log          
+git log --oneline 
+git log -p       
 
 ## Branching & Merging
 
-git branch              # List all branches
-git branch <branch_name> # Create a new branch
-git checkout <branch>    # Switch to a branch
-git checkout -b <branch> # Create and switch to a branch
-git merge <branch>      # Merge a branch into the current branch
-git branch -d <branch>   # Delete a branch
+git branch              
+git branch <branch_name> 
+git checkout <branch>    
+git checkout -b <branch> 
+git merge <branch>      
+git branch -d <branch>   
 
 ## Remote Repositories
 
-git remote -v          # List configured remote repositories
-git remote add <name> <url> # Add a remote repository
-git fetch <remote>      # Fetch updates from remote (does not merge)
-git pull <remote> <branch> # Fetch and merge updates from remote
-git push <remote> <branch> # Push local commits to remote
+git remote -v         
+git remote add <name> <url> 
+git fetch <remote>      
+git pull <remote> <branch> 
+git push <remote> <branch> 
 
 ## Tagging
 
-git tag <tag_name>          # Create a tag for a specific commit
-git tag -a <tag_name> -m "Message" # Annotated tag with message
-git push origin <tag_name>   # Push tag to remote
+git tag <tag_name>          
+git tag -a <tag_name> -m "Message" 
+git push origin <tag_name>   
 
 
