@@ -1,10 +1,9 @@
-**1** Setup & Configuration
+## Setup & Configuration
 
-```bash
-git config --global user.name "Your Name"      # Set your Git username 
-git config --global user.email "you@example.com"    # Set your Git email
-git config --global color.ui auto                 # Enable colored output
-git config --list                             # View all Git configurations
+git config --global user.name "Your Name"      
+git config --global user.email "you@example.com"   
+git config --global color.ui auto              
+git config --list     
 
 **2** Starting a Repository
 
