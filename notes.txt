@@ -1,1 +1,1 @@
-my first git repository
+my git repository
