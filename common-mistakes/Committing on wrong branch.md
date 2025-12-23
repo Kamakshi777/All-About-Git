@@ -4,7 +4,7 @@
 ```git add .```
 ```git commit -m "Add login documentation" ```
 
-**2** use ``` git reset --hard HEAD~1 ``` to Remove the commit from main.
+**2** use ``` git reset --hard HEAD~1 ``` to Remove the commit from main
 **3** Switch to the correct branch  ``` git checkout feature-login```
 
 ## if the Commit Is Already Pushed
